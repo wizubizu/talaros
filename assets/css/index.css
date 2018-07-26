@@ -1,0 +1,1838 @@
+/*=================================================================
+  Dashboard Css
+==================================================================*/
+
+@media screen and (min-width: 1440px){
+
+  .__dasepl {
+    margin: 5% 0 0 65px;
+    width: 870px;
+  }
+
+  .__dasepl span:nth-child(1) {
+    margin-left: 23%;
+  }
+
+}
+
+@media screen and (max-width: 1220px){
+  .__dasepl {
+    margin: 5% 0 0 72px;
+    width: 865px;
+  }
+
+  .__dasepl span:nth-child(1) {
+    margin-left: 22%;
+  }
+
+  .__pa {
+    margin: 45px 8px 9px 70px;
+    width: 869px;
+  }
+
+  .__addag {
+    margin: 45px 8px 9px 70px;
+    width: 869px;
+  }
+
+  .__dasempl {
+    margin: 45px 8px 9px 76px;
+    width: 865px;
+  }
+
+  .bigers {
+    width: 58%;
+    margin-top: 0%;
+    margin-left: 227px;
+  }
+
+  .__tabov {
+    margin: 5% 0 0 89px;
+    width: 866px;
+  }
+
+  .__profbtn {
+    width: 165px;
+  }
+
+  .__prof1btn {
+    width: 165px;
+  }
+
+  .__bidsov {
+    margin: 2% 7%;
+    width: 911px;
+  }
+
+
+}
+
+@media screen and (max-width: 1024px){
+  .leftbar {
+  padding-top: 10%;
+  }
+  .leftbart {
+  padding-top: 4%;
+  width: 205px;
+  }
+
+  .__dasepl span:nth-child(1) {
+    padding: 14px 29px;
+    margin-left: 5%;
+  }
+
+  .__dasepl {
+    margin: 5% 0px 0px 87px;
+    /*width: 805px;*/
+    width: 727px;
+  }
+
+  .__dasepl1 {
+    margin: 45px 8px 9px 92px;
+    width: 723px;
+  }
+
+  .__dascard {
+    width: 100%;
+  }
+
+  .__dasempl {
+      margin: 45px 0px 9px 91px;
+    width: 707px;
+  }
+
+  .__pa {
+    margin: 45px 8px 9px 89px;
+    width: 726px;
+  }
+  .__addag {
+    margin: 45px 8px 9px 89px;
+    width: 726px;
+  }
+
+  .bigers {
+    width: 67%;
+    margin-top: 3%;
+    margin-left: 139px;
+  }
+
+  .__tabov {
+    margin: 5% 0 0 82px;
+    width: 721px;
+  }
+
+  .__trvto {
+    padding: 10px 20px 3px;
+  }
+
+  .__nav-pills li a {
+    padding: 20px 10px 9px;
+  }
+
+  .__profbtn {
+    font-family: AvenirLTStd-Medium;
+    width: 142px;
+  }
+  .__prof1btn {
+    font-family: AvenirLTStd-Medium;
+    width: 142px;
+  }
+
+  .__upl {
+    padding: 40px 66px;
+  }
+
+
+}
+
+@media screen and (max-width: 992px) {
+  
+  
+  .__dasepl {
+      margin: 5% 0px 0px 87px;
+      width: 712px;
+  }
+
+  .__pa {
+    margin: 45px 8px 9px 89px;
+    width: 709px;
+  }
+  .__addag {
+    margin: 45px 8px 9px 89px;
+    width: 709px;
+  }
+
+  .__dasepl span:nth-child(1) {
+    margin-left: 3%;
+  }
+
+}
+
+@media screen and (max-width: 800px){
+  .leftbar{
+    transform: translate(-300px);
+    top: 0%;
+  }
+
+  .leftbart{
+    transform: translate(-300px);
+    top: 0%;
+  }
+  #openSidebar{
+    display: block !important;
+    cursor: pointer !important;
+    margin-top: 17px;
+  }
+  img#closebtn {
+     display: block;
+     top: 3%;
+    left: 5%;
+  }
+
+  .__dast {
+    margin-top: 0%;
+  }
+
+
+  .__dasepl {
+    margin: 7% 0 0 0;
+    width: 100%;
+  }
+
+  .__dasepl1 {
+    margin: 45px 8px 9px 0;
+    width: 100%;
+  }
+
+  .__dascard {
+    width: 100%;
+  }
+
+  .__dashnav{
+    z-index: 1;
+  }
+
+  .__dasepl span:nth-child(1) {
+    padding: 14px 29px;
+    margin-left: 24%;
+  }
+
+  .__dascard p:nth-child(2) {
+    font-size: 14px;
+  }
+
+  .__dascard p:nth-child(3) {
+    font-size: 20px;
+  }
+
+  .__dasempl {
+    margin: 12px 8px 9px 0px;
+    width: 736px;
+  }
+
+  .__pa {
+    margin: 45px 8px 9px 0px;
+    width: 100%;
+  }
+  .__addag {
+    margin: 45px 8px 9px 0px;
+    width: 100%;
+  }
+
+  .bigers {
+    width: 66%;
+    margin-top: 0%;
+    margin-left: 148px;
+  }
+
+  .__tabov {
+    margin: 7% 0 0 0px;
+    width: 100%;
+  }
+
+  .__trvto {
+    padding: 10px 24px 3px;
+  }
+
+  .__nav-pills li a {
+    padding: 20px 5px 9px;
+  }
+
+  .__profbtn {
+    width: 140px;
+  }
+
+  .__prof1btn {
+    width: 140px;
+  }
+
+  .__travtbids {
+    padding: 5px 1px;
+  }
+
+  .__pfin {
+    padding: 33px 30px;
+  }
+
+
+}
+
+
+@media screen and (max-width: 568px) {
+
+    .__dast{
+    margin-top: 10%;
+  }
+
+  .__dashnav{
+    z-index: 1;
+    height: 56px;
+  }
+  
+  .biger{
+    width: 80% ;
+    transform: translate(0px) !important;
+    z-index:1  !important;
+    
+  }
+
+  .leftbar{
+    transform: translate(-1000px);
+    top: 0%;
+  }
+
+  .leftbart{
+    transform: translate(-1000px);
+    top: 0%;
+  }
+  #openSidebar{
+    display: block !important;
+    cursor: pointer !important;
+  }
+
+  /*for image close*/
+  img#closebtn {
+     display: block;
+     top: 3%;
+    left: 5%;
+  }
+
+  i#closebtn {
+     display: block;
+     top: 2%;
+    left: 5%;
+  }
+
+  #openSidebar {
+    margin-top: 2px;
+  }
+
+  .maianer {
+      padding: 10px 20px;
+  }
+  .mr-125 { right:125px !important; }
+
+
+  /*right slider side*/
+  .bigers {
+    width: 82%;
+    margin-top: 0%;
+    margin-left: 57px;
+  }
+
+  img#rightclosebtns {
+    margin-left: 233px;
+  }
+
+/*end*/
+
+  .__profimg {
+    margin-left: 77px;
+  }
+
+
+  .__dasepl {
+    width: 100%;
+    margin: 12% 0 0 !important;
+  }
+
+  .__dasepl1 {
+    margin: 0;
+    width: 100%;
+  }
+
+  .__dascard {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .__dasepl span:nth-child(1) {
+    padding: 0;
+    margin-left: 0;
+  }
+
+  .__dasepl span:nth-child(3) {
+    padding: 4px;
+  }
+
+  .__dassc {
+    margin-bottom: 10px;
+  }
+
+  .__logo {
+    width: 80px;
+    margin-top: -10px;
+    margin-left: 48px;
+  }
+
+  .navbar-toggle {
+    /* border: 2px solid #FFFFFF; */
+    color: #ffffff;
+    background: #f0842d;
+  }
+
+  .__dascard p:nth-child(2) {
+    font-size: 10px;
+    margin-bottom: 0px;
+    padding: 3px 10px;
+  }
+  .__dascard p:nth-child(3) {
+    font-size: 15px;
+    margin-bottom: 0px;
+    padding: 3px 10px 10px;
+  }
+
+  .__pa {
+    margin: 1px 8px 9px 0px;
+    width: 100%;
+  }
+  .__addag {
+    margin: 1px 8px 9px 0px;
+    width: 100%;
+  }
+
+  .__pro1 {
+    font-size: 12px;
+  }
+
+  .__pro2 {
+    font-size: 12px;
+  }
+
+  .__pfin {
+    padding: 20px 10px;
+  }
+
+  .__pfpa {
+    padding: 10px 27px;
+  }
+
+  .__prof {
+    padding: 12px 11px;
+  }
+
+  .__setp {
+    border: 1px solid #e6e6e6;
+    text-align: center;
+    padding: 20px 9px;
+  }
+
+  .__tabov {
+    margin: 17% 0 0 0px;
+    width: 100%;
+  }
+
+  .__trvto {
+    padding: 10px 13px 3px;
+  }
+
+  .__nav-pills li a {
+    padding: 20px 2px 9px;
+  }
+
+  .__tab {
+    padding: 15px 9px;
+  }
+
+  .__upl {
+    padding: 25px 15px;
+  }
+
+  .__it .btn-new, .__it .btn-next {
+    margin: 5px 0px;
+    font-size: 16px;
+    width: 123px;
+  }
+
+  .__accordion {
+    padding: 18px 20px;
+  }
+
+  .panel {
+    padding: 0 18px;
+  }
+
+  .__profbtn {
+    width: 120px;
+  }
+  .__prof1btn {
+    width: 120px;
+  }
+
+  .__proft {
+    border-right: none;
+  }
+
+  .__prp{
+    text-align: center;
+  }
+
+  .__prp p:nth-child(1) {
+    font-size: 11px;
+  }
+
+  .__prp p:nth-child(2) {
+    font-size: 11px;
+  }
+
+  .__prp p:nth-child(3) {
+    font-size: 14px;
+  }
+  .__prp p:nth-child(4) {
+    font-size: 12px;
+  }
+
+  .__picture {
+    width: 240px;
+  }
+
+  #picture_preview {
+    width: 104px;
+    height: 104px;
+  }
+
+  .__picture .__pimg {
+    margin-top: 69px;
+    margin-left: -36px;
+  }
+
+  .__bidq {
+    margin-top: -5px;
+    margin-left: -6px;
+  }
+
+  .__bids img {
+    width: 30px;
+    height: 32px;
+    margin-top: -35px;
+  }
+
+  .__bids7 p:nth-child(1) {
+    font-size: 12px;
+  }
+
+  .__bids7 p:nth-child(2) {
+    font-size: 11px;
+  }
+  .__bidsp p {
+    font-size: 11px;
+  }
+
+
+
+}
+
+
+/*=================================================================
+  Dashboard Css end
+==================================================================*/
+
+
+
+
+
+
+
+
+/*=================================================================
+  @media screen 1440px
+==================================================================*/
+
+
+@media screen and (min-width: 1440px){
+   
+  .__vcimg img {
+    width: 907px;
+  }
+
+  .__vcimg1 img {
+    width: 446px;
+  }
+
+  .__navm {
+    bottom: -195px;
+    margin: 0 0 0 241px;
+    padding: 20px 0;
+  }
+
+  .__overflow {
+    height: 356px;
+  }
+
+
+}
+
+/*=================================================================
+  @media screen 1199px
+==================================================================*/
+
+
+@media screen and (max-width: 1199px){
+   
+  
+
+}
+
+
+/*=================================================================
+  @media screen 1220px
+==================================================================*/
+
+
+@media screen and (max-width: 1220px){
+  
+  .__navm {
+    bottom: -243px;
+    margin: 0px 0 0 159px;
+   }
+
+  .__msgin {
+    margin: 20px 0px 20px 57px;
+    width: 900px;
+  }
+
+ /* .__pane-vScroll {
+    width: 926px;
+  }*/
+
+
+  .__overflow {
+    height: 356px;
+  }
+
+
+}
+
+
+/*=================================================================
+  @media screen 1024px
+==================================================================*/
+
+
+@media screen and (max-width: 1024px){
+
+  .__navm {
+    position: unset;
+    width: 100%;
+    margin: 0;
+   padding: 15px 0;
+  }
+
+  .__vflotimg {
+    padding: 0 40px;
+  }
+
+  .__vflotimg1 {
+    padding: 0 40px;
+  }
+
+  .__navsbtn {
+    width: 141px;
+  }
+
+  .__megamenu {
+    width: 1038px;
+    margin-left: -51px;
+    padding: 0px;
+  }
+
+  .__vfbtn {
+    padding: 9px 8px;
+  }
+
+  .__vcimg img {
+    height: 289px;
+  }
+
+  .__vcimg1 img {
+    height: 289px;
+  }
+
+  .__tradeal {
+    top: 5px;
+  }
+
+  .__bidn {
+    top: 5px;
+  }
+
+  .__foter {
+    padding: 39px 93px;
+  }
+
+  .__msgin {
+    margin: 20px 0px 20px 85px;
+    width: 717px;
+  }
+
+  .text-bar button {
+    width: 82px;
+  }
+
+  .__md7 {
+    padding: 10px;
+  }
+
+
+  .__pcard {
+    width: 100%;
+  }
+  .__pcard1 {
+    width: 100%;
+  }
+
+  .__pcard2 {
+    width: 100%;
+  }
+
+  .__cardh {
+    margin: 100px 36px 10px 85px;
+    width: 729px;
+  }
+
+  .__ptable {
+    width: 100%;
+  }
+
+  .__overlay {
+    height: inherit;
+    width: inherit;
+  }
+
+  .__overlay1 {
+    height: inherit;
+    width: inherit;
+  }
+
+  .__payp img {
+    width: 498px;
+    height: 130vh;
+  }
+
+  .__payoverlay {
+    width: 498px;
+    height: 130vh;
+  }
+
+  .__paypps {
+    padding: 10px 30px;
+  }
+
+  .__serim img {
+    width: 100%;
+    height: 344px;
+  }
+
+  .__serme1 {
+    padding: 4px 0px;
+  }
+
+  .__scard {
+    width: 100%;
+  }
+
+  .__dealcard {
+    width: 100%;
+  }
+
+  .__dealm img {
+    width: 100%;
+    height: 360px;
+  }
+
+  .__deaal {
+    margin: 6px 6px 0 -28px;
+  }
+
+  .__visr {
+    font-size: 15px;
+  }
+  .__visrw p {
+    font-size: 17px;
+  }
+
+  .__overflow {
+    height: 356px;
+  }
+
+  .__vcard {
+    width: 631px;
+    height: 289px;
+  }
+
+  .__vcard1 {
+    width: 304px;
+    height: 289px;
+  }
+
+  .__vcard2 {
+    width: 307px;
+    height: 289px;
+  }
+
+  .__bidsov {
+    margin: 2% 9%;
+    width: 759px;
+  }
+
+  .__bidq {
+    margin-left: -4px;
+    margin-top: 5px;
+  }
+
+
+  .__rigbtn {
+   font-size: 12px;
+  }
+
+  .__bids7 p:nth-child(1) {
+    font-size: 12px;
+  }
+
+  .__bids7 p:nth-child(2) {
+    font-size: 11px;
+  }
+
+  .__bids img {
+    margin-top: -13px;
+  }
+
+  .__bids {
+    padding: 10px 10px;
+  }
+
+  .__bidsp {
+    font-size: 9px;
+  }
+
+  .__bids7 {
+    padding: 0px 7px;
+  }
+
+  .__bidsp1 {
+    font-size: 11px;
+  }
+
+  .__bids7 h2 {
+    font-size: 17px;
+  }
+
+  
+
+}
+
+
+/*=================================================================
+  @media screen 992px
+==================================================================*/
+
+
+@media screen and (max-width: 992px){
+  .__msgin {
+    margin: 20px 0px 20px 91px;
+    width: 693px; 
+  }
+
+  .__md7 {
+    padding: 10px;
+  }
+
+  .__overflow {
+    height: 356px;
+  }
+
+  .__bidsov {
+    margin: 2% 10%;
+    width: 745px;
+  }
+
+  
+
+
+}
+
+
+/*=================================================================
+  @media screen 800px
+==================================================================*/
+
+@media screen and (max-width: 800px){
+
+	.__navw {
+    width: 100%;
+  }
+
+  
+  .__mdbg {
+    padding: 29px;
+    height: 100%;
+  }
+
+  .__mdbg1 {
+    padding: 29px;
+  }
+
+  .__navm {
+    position: unset;
+    width: 100%;
+    margin: 0;
+  }
+
+  .__vflotimg {
+    padding: 0 8px;
+  }
+
+  .__vflotimg1 {
+    padding: 0 8px;
+  }
+
+
+  .__dropt {
+  width: 100%;
+    height: 38px;
+  }
+
+  .__navsbtn {
+    width: 100%;
+    height: 38px;
+    padding-top: 9px;
+  }
+
+  .__megamenu {
+    width: 784px;
+    margin-left: -34px;
+    padding: 2px;
+  }
+
+  .__topt {
+    margin-top: 0%;
+  }
+
+  .__vcardp {
+    font-size: 16px;
+    padding: 14px;
+  }
+
+  .__vcimg img {
+    width: 890px;
+    height: 240px;  
+  }
+
+  .__vcimg1 img {
+    width: 426px;
+    height: 240px;
+  }
+
+  .__tradeal {
+    top: 5px;
+  }
+
+  .__bidn {
+    top: 5px;
+  }
+
+  
+  .__vft {
+    width: 106px;
+    margin-left: -35px;
+    font-size: 12px;
+  }
+
+  .__vftt {
+    width: 95px;
+    margin-left: 58px;
+  }
+
+  .__vfbtn {
+    padding: 9px 9px;
+  }
+
+  .__vf {
+    bottom: 5px;
+  }
+
+  .__vfp {
+    font-size: 12px;
+  }
+
+  .__fh {
+    font-size: 15px;
+  }
+
+  .__foter {
+    padding: 39px 20px;
+    margin-top: 3%;
+  }
+
+
+  .__fod {
+    padding: 0 50px;
+  }
+
+  .__msgin {
+    margin: 34px 0px 20px 0px;
+    width: 100%;
+  }
+
+  .__pcard {
+    width: 100%;
+  }
+
+  .__pcard1 {
+    width: 100%;
+  }
+
+  .__pcard2 {
+    width: 100%;
+  }
+
+  .__cardh {
+    margin: 100px 36px 10px 0px;
+    width: 724px;
+  }
+
+  .__ptable {
+    width: 723px;
+  }
+
+  .__ttab {
+    margin-top: 2%;
+  }
+
+  .__pcardin {
+    margin-left: 8px;
+  }
+
+  .__pcardin1 {
+    margin-left: 8px;
+  }
+
+  .__pcardin2 {
+    margin-left: 8px;
+  }
+
+  .__vcard {
+    width: 483px;
+    height: 240px;
+  }
+
+  .__vcard1 {
+    width: 231px;
+    height: 240px;
+  }
+
+  .__vcard2 {
+    width: 234px;
+    height: 240px;
+  }
+
+  .__overlay {
+    height: inherit;
+    width: inherit;
+  }
+
+  .__overlay1 {
+    height: inherit;
+    width: inherit;
+  }
+
+  .__ser img {
+    height: 130px;
+  }
+
+  .__ser p:nth-child(2) {
+    font-size: 13px;
+  }
+
+  .__ser p:nth-child(3) {
+    font-size: 13px;
+  }  
+
+  .__seart {
+    font-size: 18px;
+  }
+
+  .__sersee {
+    font-size: 18px;
+  }
+  .__seart1 {
+    font-size: 18px;
+  }
+
+  .__paym{
+    padding: 8px 85px;
+  }
+
+  .__payp img {
+    width: 599px;
+    height: 100%;
+  }
+
+  .__serim img {
+    width: 100%;
+    height: 322px;
+  }
+
+  .__scard {
+    width: 100%;
+  }
+
+  .__dealcard {
+    width: 100%;
+  }
+
+  .__serme1 {
+    padding: 4px 0px;
+  }
+
+  .__scard p:nth-child(2) {
+    font-size: 13px;
+  }
+
+  .__scard p:nth-child(3) {
+    font-size: 17px;
+  }
+
+  .__dealcard p:nth-child(2) {
+    font-size: 13px;
+  }
+
+  .__dealcard p:nth-child(3) {
+    font-size: 17px;
+  }
+
+  .__dealcard{
+    margin-top: 10px;
+  }
+
+  .__dealcard img {
+    width: 100%;
+    height: 150px;
+  }
+
+  .__dealm img {
+    width: 100%;
+    height: 273px;
+  }
+
+  .__vggu {
+    padding: 21px 90px;
+  }
+
+  .__serin {
+    padding: 21px 0 0 108px;
+  }
+
+  .__seainn {
+    height: 43px;
+  }
+
+  .__sercinbtn {
+    padding: 6px 15px;
+  }
+
+  .__visaad {
+    width: 100%;
+  }
+
+  .__visadimg img {
+    width: 328px;
+  }
+
+  .__visadbtn {
+    width: 163px;
+  }
+
+  .__overflow {
+    height: 356px;
+  }
+
+  .__conal {
+    padding: 0;
+  }
+
+  .__conin p {
+    font-size: 15px;
+  }
+
+  .__bidsov {
+    margin: 6% 0;
+  }
+
+  .__bids7 {
+    padding: 0 15px;
+  }
+
+  
+
+
+ 
+
+
+
+
+}
+
+
+/*=================================================================
+  @media screen 560px
+==================================================================*/
+
+
+  @media screen and (max-width: 560px){
+
+  .__navw {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .__navin {
+    font-size: 27px;
+  }
+
+ 
+
+  .__cdl {
+    padding-left: 15px;
+  }
+
+  .__cdr {
+    padding-left: 15px;
+  }
+
+  .__mdbg {
+    padding: 17px;
+  }
+
+  .__mdbg1 {
+    padding: 17px;
+  }
+
+  .__art {
+    font-size: 30px
+  }
+
+  .__regbtn {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .__navfu1 {
+    margin:0 auto;
+    width: 100%;
+  }
+
+  .__navfu {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .__navbtn {
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  .__navm {
+    position: absolute;
+    bottom: -522px;
+    width: 100%;
+    margin: 0;
+  }
+
+  .__vflotimg {
+    padding: 0;
+  }
+
+  .__vflotimg1 {
+    padding: 0;
+    border-right: 1px solid #d4d4d4;
+  }
+
+  .__imgs {
+    margin-left: 38px;
+  }
+
+  .__topt {
+    margin-top: 0%;
+  }
+
+  .__bottomMenu {
+    width: 100%;
+    height: 130px;
+  }
+
+  .__navsbtn {
+    width: 100%;
+    height: 100%;
+    margin-top: 1px;
+    padding-top: 8px;
+  }
+
+  .__navdf {
+    margin-top: 7px;
+  }
+
+
+  .__megamenu {
+    width: 332px;
+    margin-left: -14px;
+    padding: 3px;
+  }
+
+
+  .__vcardp {
+    bottom: 0px;
+    font-size: 13px;
+    padding: 10px;
+  }
+
+  .__vf {
+    bottom: 0px;
+    width: 297px;
+  }
+
+  .__vfp {
+    font-size: 13px;
+  }
+
+  .__foter {
+    padding: 39px 15px;
+    text-align: center;
+  }
+
+  .__fosocai {
+    text-align: center;
+    float: none;
+}
+
+.__vcard {
+    margin: 3% 1% 3% 1%;
+    height: 200px;
+   width: 287px;
+}
+
+.__vcard1 {
+    margin: 6% 0% 6% 0%;
+    width: 290px;
+    height: 200px;
+  }
+
+  .__vcard2 {
+    margin: 6% 5% 6% 1%;
+    width: 287px;
+    height: 200px;
+  }
+
+  .__vcimg img {
+    width: 100%;
+    height: 200px;
+  }
+
+  .__vcimg1 img {
+    width: 100%;
+    height: 200px;
+  }
+
+  .__tradeal {
+    position: absolute;
+    top: 0px;
+  }
+
+  .__bidn {
+    position: absolute;
+    top: 0px;
+  }
+
+  .__vft {
+    width: 103px;
+    margin-left: -9px;
+  }
+
+  .__vftt {
+    width: 95px;
+    margin-left: -3px;
+  }
+
+
+  .__vfbtn {
+      font-size: 12px;
+      padding: 9px 12px;
+  }
+
+  .__logbg {
+    padding: 20px 0;
+  }
+
+  .__lform {
+    font-size: 14px;
+  }
+
+  .__lfbd {
+    height: 100%;
+    width: 100%;
+  }
+
+  .__lfori {
+      margin: 0 auto;
+      width: 280px;
+  }
+
+  .__lfbtn {
+    /*width: 279px;*/
+  }
+
+  .__lgsoc {
+    margin-top: 7%;
+    text-align: center;
+  }
+
+  .__lsp {
+     margin-right: -5px;
+  }
+
+  .__lsp1 {
+    padding: 12px 25px 12px;
+    font-size: 14px;
+  }
+
+  .__lsp3 {
+    padding: 12px 14px 12px;
+    font-size: 14px;
+  }
+
+  .__lagbtn {
+    width: 138px;
+  }
+
+  .__msgin {
+    margin: 36px 0px 20px 0;
+    width: 100%;
+  }
+
+  .__md7 {
+    padding: 6px;
+  }
+
+  .left-chat p, .right-chat p {
+    width: 72%;
+  }
+
+  .__cardh {
+    margin: 65px 36px 10px 0px;
+    width: 100%;
+  }
+
+  .__pcard {
+    width: 100%;
+    height: 100%;
+  }
+  .__pcard1 {
+    width: 100%;
+    height: 100%;
+  }
+  .__pcard2 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .__pcardin {
+    margin: 10px;
+    /*position: unset;
+    margin-left: 0px;
+    width: 100%;
+    height: 67px;
+    padding: 6px 10px;*/
+  }
+
+  .__pcardin1 {
+    margin: 10px;
+  }
+  .__pcardin2 {
+    margin: 10px;
+  }
+
+  .__ptr {
+    /* font-family: Raleway-Medium; */
+    font-size: 12px;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .__ptr1 {
+    font-size: 18px;
+    text-align: center;
+    padding: 0 13px;
+  }
+
+  .__ptr2 {
+    /* font-family: Raleway-Medium; */
+    font-size: 10px;
+    text-align: center;
+    padding: 0 2px;
+  }
+
+  .__pta {
+    font-size: 13px;
+  }
+  .__ptp {
+    font-size: 13px;
+  }
+  .__ptt {
+    font-size: 13px;
+  }
+
+  .__ptable {
+    width: 100%;
+    padding: 11px;
+    margin-top: 5%;
+  }
+
+  
+
+  .table table {
+    width: 800px;
+  }
+
+
+  .__dasempl {
+    margin: 12px 8px 9px 0;
+    width: 100%;
+  }
+
+  .__overlay {
+    width: inherit;
+    height: inherit;
+  }
+
+  .__overlay1 {
+    width: inherit;
+    height: inherit;
+  }
+
+  .__visadimg img {
+    width: 100%;
+  }
+
+  .__visaad {
+    width: 100%;
+  }
+
+  .__visadbtn {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .__paym{
+    padding: 0 10px;
+  }
+  .__payp img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .__payoverlay {
+    width: 301px;
+    height: 100%;
+  }
+
+  .__payvap {
+    bottom: 0px;
+    padding: 0px 14px;
+    width: 301px;
+  }
+
+  .__paypps {
+    padding: 10px 17px;
+  }
+
+  .__serp {
+    padding: 15px;
+  }
+
+  .__seain {
+    height: 40px;
+  }
+
+  .__sercbtn {
+    padding: 6px 15px;
+  }
+
+  .__ser img {
+    height: 118px;
+    margin-top: 10px;
+  }
+
+  .__ser p:nth-child(2) {
+    font-size: 12px;
+  }
+
+  .__ser p:nth-child(3) {
+    font-size: 12px;
+  }
+
+  .__seart {
+    font-size: 15px;
+  }
+
+  .__sersee {
+    font-size: 14px;
+  }
+
+  .__seart1 {
+    font-size: 15px;
+  }
+
+  .__serim img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .__sers .__i {
+    font-size: 16px;
+  }
+
+  .__seca {
+    font-size: 23px;
+    margin-top: -8%;
+  }
+
+  .__seimgm{
+    text-align: center;
+  }
+
+  .__star {
+    text-align: center;
+  }
+
+  .__serp1{
+  text-align: center;
+  }
+
+  .__serm {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .__serme {
+    padding: 10px 4px 20px;
+  }
+
+  .__serme1 {
+    padding: 4px 14px;
+  }
+
+  .__sermr {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .__scard {
+    width: 259px;
+    margin-top: 10px;
+  }
+
+  .__dealcard {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .__serm1 {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .__sercb {
+    font-size: 20px;
+  }
+
+  .__sercb1 {
+    font-size: 13px;
+  }
+
+  .__dealm img {
+    width: 100%;
+    height: 174px;
+  }
+
+  .__deaal{
+    font-size: 12px;
+    margin: 6px 6px 0 0px;
+  }
+
+  .__vguv {
+    font-size: 19px;
+  }
+
+  .__vguv1 {
+    font-size: 11px;
+  }
+
+  .__vggu {
+    padding: 0px 10px;
+  }
+
+  .__vgav {
+    font-size: 13px;
+  }
+
+  .__vgua p {
+    font-size: 15px;
+  }
+
+  .__visae {
+    padding: 0 13px;
+  }
+
+  .__visre {
+    padding: 8px 9px 25px;
+  }
+
+  .__visr {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .__visrw {
+    padding: 12px;
+  }
+
+  .__visrw p {
+    font-size: 13px;
+  }
+
+  .__it .btn-orange {
+    margin-top: 10px;
+  }
+
+  .__actbtn {
+    font-size: 12px;
+    width: 118px;
+  }
+
+  .__actinbtn {
+    font-size: 10px;
+    width: 70px;
+  }
+
+  .__actin1btn {
+    width: 100%;
+  }
+
+  .__modc {
+    font-size: 17px;
+  }
+
+  .__serin {
+    padding: 21px 14px 0 14px;
+  }
+
+  .__abo img {
+    width: 100%;
+    height: 100%;
+  }
+  .__abo1 img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .__abso {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .__absm {
+    font-size: 28px;
+  }
+
+  .__pr {
+    padding-right: 15px;
+  }
+
+  .__pl {
+    padding-left: 15px;
+  }
+
+  .__prm {
+    padding-right: 0;
+  }
+
+  .__plm {
+    padding-left: 0;
+  }
+
+  .__overflow {
+    height: 356px;
+  }
+
+  .__conal {
+    padding: 0;
+  }
+
+  .__conin p {
+    margin-top: 13px;
+    font-size: 14px;
+  }
+
+  .__cont {
+    font-size: 30px;
+  }
+
+  .__conta {
+    font-size: 14px;
+  }
+
+  .__bids {
+    padding: 10px 7px;
+  }
+
+  .__bids7 {
+     padding: 0 15px; 
+     /*text-align: center;*/
+  }
+
+  .__bidsov {
+    margin: 0%;
+    width: 100%;
+  }
+
+  .__bidsimg img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .__nav-pills {
+    margin-top: 0;
+  }
+
+  .__bidsp1 {
+    margin-top: 0px;
+  }
+
+  .__modalcontent {
+    margin: 0;
+  }
+
+
+
+}
+
