@@ -770,7 +770,7 @@
   .__formcard {
     padding: 10px 14px;
     color: #fff;
-    background: #ffffff2e;
+    background: #ffffff2e !important;
   }
 
   .__fcvip {
