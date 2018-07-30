@@ -31,7 +31,7 @@
 
 	<!-- WEBFONT -->
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway">
-	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	
 	
 
 	<!-- ICON -->
@@ -43,8 +43,8 @@
 
 
 	<header>
-		<nav class="navbar navbar-default" role="navigation">
-			<div class="container-fluid">
+		<nav class="navbar __hdnav" role="navigation">
+			<div class="container">
 				<!-- Brand and toggle get grouped for better mobile display -->
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -53,7 +53,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="#">Title</a>
+					<a class="navbar-brand" href="index.html"><img src="assets/img/logo.svg" class="__logo"></a>
 				</div>
 		
 				<!-- Collect the nav links, forms, and other content for toggling -->
@@ -69,11 +69,11 @@
 						<button type="submit" class="btn btn-default">Submit</button>
 					</form> -->
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="#">Home</a></li>
-						<li><a href="#">Become a Partner</a></li>
-						<li><a href="#">Make a Request</a></li>
-						<li><a href="#">Contact</a></li>
-						<li><a href="#">FAQ</a></li>
+						<li><a href="index.html">Home</a></li>
+						<li><a data-toggle="modal" href='#modal-id'>Become a Partner</a></li>
+						<li><a href="#delivery">Make a Request</a></li>
+						<li><a href="#contact">Contact</a></li>
+						<li><a href="faq.html">FAQ</a></li>
 						<!-- <li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
 							<ul class="dropdown-menu">
@@ -95,10 +95,14 @@
 				<div class="col-lg-6 col-md-6 col-sm-6">
 					<div class="__visad">
 						<div id="typed-strings" style="display: none;">
-	                        <p>People deserve more. You deserve better</p>
-	                        <p>Make money whenever you deliver</p>
+	                        <!-- <p>People deserve more. You deserve better</p> -->
+	                        <p>You deserve more, everyday</p>
+	                        <p>You are special to us.</p>
+	                        <p>You told us how you wanted your deliveries done</p>
+	                        <p>We listened and designed just as you requested.</p>
+	                        <!-- <p>Make money whenever you deliver</p> -->
 	                        
-	                        <p>Request a delivery that saves you money and gets to you when you want it</p>
+	                        <!-- <p>Request a delivery that saves you money and gets to you when you want it</p> -->
 	                        
 	                        </div>
 	                    <span id="typed" style="white-space:next;"></span>
@@ -115,40 +119,40 @@
 		<div class="__ibg">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-6"></div>
-					<div class="col-md-6">
-						<div class="__fcardpostion">
+					<div class="col-md-6 col-sm-6"></div>
+					<div class="col-md-6 col-sm-6">
+						<div class="__fcardpostion" id="delivery">
 							<h4 class="__topfcard">Request a delivery that's affordable</h4>
 							<div class="__formcard">
 								<form id="regForm2" action="" enctype="multipart/form-data" method="POST" role="form" class="sendBrief" name="myform" onsubmit ="return(validatepj());">
 									<h3 class="__fcvip">VIP</h3>
 									<div class="row">
-										<div class="col-md-5 col-sm-5"></div>
-										<div class="col-md-2 col-sm-2">
+										<div class="col-md-5 col-sm-5 col-xs-5"></div>
+										<div class="col-md-2 col-sm-2 col-xs-2">
 											<hr class="__fcviphr">
 										</div>
-										<div class="col-md-5 col-sm-5"></div>
+										<div class="col-md-5 col-sm-5 col-xs-5"></div>
 									</div>
 	                
 					                <!-- first -->
 					                <div class="" id="First-Div">
 					                    <div class="form-group">
-					                        <label for="" class="">Name</label>
+					                        <label for="" class="">Full Name</label>
 					                        <input type="text" class="form-control" placeholder="first name, last name"  name="fullname" data-check="true">
 					                    </div>
 
 					                    <div class="form-group">
-					                        <label for="" class="">Email Address</label>
-					                        <input type="email" class="form-control " name="email" id="" placeholder="" data-check="true">
+					                        <label for="" class="">Phone Number for Whatsapp</label>
+					                        <span id="errmsg"></span>
+					                        <input type="text" class="form-control " name="phone" id="phone" data-check="true" placeholder="0702334567"/>
 					                    </div>
 
 					                    <div class="form-group">
-					                        <label for="" class="">Phone Number</label>
-					                        <span id="errmsg"></span>
-					                        <input type="text" class="form-control " name="phone" id="phone" data-check="true" placeholder="+234"/>
+					                        <label for="" class="">Email Address</label>
+					                        <input type="email" class="form-control " name="email" id="" placeholder="adekunle@gmail.com" data-check="true">
 					                    </div>
 
-					                    <button type="button" class="btn btn-block" onclick="showNextForm()">Continue</button>
+					                    <button type="button" class="btn btn-block __btnvip" onclick="showNextForm()">Continue</button>
 					                </div>
 
 					                <!-- second -->
@@ -168,30 +172,28 @@
 											<label for="" class="">What time and day do you want item(s) to be delivered</label>
 											<div class="row">
 												<div class="col-md-6 col-sm-6">
-													<input type="text" class="btn-select-input datepicker form-control __loin" placeholder="dd/mm/yyyy" id="" name="datep" value="" />
+													<input type="text" class="btn-select-input datepicker form-control" placeholder="dd/mm/yyyy" id="" name="datep" value="" />
 												</div>
 												<div class="col-md-6 col-sm-6">
-													<input class="form-control __loin" placeholder="02:10 PM" id="timepicker1" type="text" name="timepicker1"/>
+													<input class="form-control __mbinp" placeholder="02:10 PM" id="timepicker1" type="text" name="timepicker1"/>
 												</div>
 											</div>
 										</div>
 
 										<div class="form-group">
-											<label for="" class="">Picture of item(s)</label>
+											<label for="" class="">Picture of item(s) you want to deliever</label>
 											<input type="file" class="form-control" id="files" name="files" multiple>
 										</div>
 
 					                    <div id="actionBtn">
 					                    	<div class="row">
 					                    		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-					                    			<button type="button" class="btn btn-block" onclick="showPrevForm()">Previous</button>
+					                    			<button type="button" class="btn btn-block __btnvip" onclick="showPrevForm()">Previous</button>
 					                    		</div>
 					                    		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
-					                    			<button type="submit" class="btn btn-block">Submit</button>
+					                    			<button type="submit" class="btn btn-block __btnvip">Submit</button>
 					                    		</div>
 					                    	</div>
-					                        
-					                        
 					                    </div>
 					                </div>
 					            </form>
@@ -201,11 +203,305 @@
 				</div>
 			</div>
 		</div>
+
+		<div class="container">
+			<h3 class="__talawhy">Why Us</h3>
+			<div class="row">
+				<div class="col-md-5 col-sm-5 col-xs-4"></div>
+				<div class="col-md-2 col-sm-2 col-xs-4">
+					<hr class="__fcviphr">
+				</div>
+				<div class="col-md-5 col-sm-5 col-xs-4"></div>
+			</div>
+			<div class="row">
+				<div class="col-md-9"></div>
+				<div class="col-md-3">
+					<div class="__dropimg">
+						<img src="assets/img/drop.svg" class="">
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-6">
+					<div class="__talaour">
+						<h3>Our belief</h3>
+						<p class="">We believe people know their city and towns much more than any app would. People, yes you, make the world go exciting. </p>
+						<p class="">We want to bring happiness to you, as we seek to help increase intra-Africa trade and intra-Nigeria trade. </p><br>
+					
+						<div class="row">
+							<div class="col-lg-5 col-md-5 col-sm-6">
+								<div class="__talaimg">
+									<img src="assets/img/delivery.jpg" class="img-responsive">
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-6">
+								<div>
+									<h3>Unique</h3>
+									<p class="">We do not call you customer or client. No. Whenever you deliver you are our Partner. Whenever you request a delivery, you are our VIP. You can become anything you want</p>
+								</div>
+							</div>
+							<div class="col-lg-1 col-md-1"></div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6">
+					<div class="__talaour">
+						<h3>Designed by you </h3>
+						<p class="">You asked, and we designed a delivery service that gives you cheaper rates and makes you earn money whenever you deliver for your friends, family and verified people. Share the news</p><br>
+						<div class="row">
+							<div class="col-lg-5 col-md-5 col-sm-6">
+								<div class="__talaimg">
+									<img src="assets/img/man-delivering.jpg" class="img-responsive">
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-6">
+								<div>
+									<h3>Charity</h3>
+									<p class="">Business should do good. We do not just say it, we do it. Every month, 5% of each month’s profit will be given to a nominated cause, charity or orphanage.</p>
+								</div>
+							</div>
+							<div class="col-lg-1 col-md-1"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="__taladownimg">
+				<img src="assets/img/down.svg" class="">
+			</div><br><br>
+			<hr><br>
+			<h3 class="__fcvip">The Magic</h3>
+			<div class="row">
+				<div class="col-md-5 col-sm-5 col-xs-4"></div>
+				<div class="col-md-2 col-sm-2 col-xs-4">
+					<hr class="__fcviphr">
+				</div>
+				<div class="col-md-5 col-sm-5 col-xs-4"></div>
+			</div><br>
+			<p class="__talawhat">You can become anything you want, anytime, whenever you want</p><br>
+			<div class="__whateverpad">
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-6">
+						<img src="assets/img/key.svg" class="img-responsive">
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-6">
+						<h3>Partner With Us</h3>
+						<div class="row">
+							<div class="col-md-3 col-sm-3 col-xs-3">
+								<hr class="__fcviphr">
+							</div>
+							<div class="col-md-9 col-sm-9 col-xs-9"></div>
+						</div>
+						<div class="__talawe">
+							<p class="">We have the key to the business and whenever you deliver you are our Partner.</p>
+							<p class="">To become a partner, kindly complete the form so we can sign you up immediately </p>
+							<a data-toggle="modal" href='#modal-id' class="btn">Apply Here</a>
+						</div>
+					</div>
+				</div>
+				
+
+				<div class="__talabecomet">
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-6">
+							<h3>Become a VIP</h3>
+							<div class="row">
+								<div class="col-md-3 col-sm-3 col-xs-3">
+									<hr class="__fcviphr">
+								</div>
+								<div class="col-md-9 col-sm-9 col-xs-9"></div>
+							</div>
+							<div class="__talawe">
+								<p class="">Whenever you request for a delivery, you are our VIP</p>
+								<p class="">Will connect you to a Partner who will make your delivery happen.</p>
+								<a href="#delivery" class="btn">Request</a>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-6">
+							<img src="assets/img/vip.svg" class="img-responsive __talavipimg">
+						</div>
+					</div>
+				</div>
+			</div><br>
+			<hr><br>
+			<h3 class="__fcvip" id="contact">Contact</h3>
+			<div class="row">
+				<div class="col-md-5 col-sm-5 col-xs-4"></div>
+				<div class="col-md-2 col-sm-2 col-xs-4">
+					<hr class="__fcviphr">
+				</div>
+				<div class="col-md-5 col-sm-5 col-xs-4"></div>
+			</div><br>
+			<div class="row">
+				<div class="col-md-7 col-sm-7">
+					<div class="">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.19478777055!2d3.3772605147705854!3d6.497006095300271!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8c89e48fa39f%3A0x7ea29f99c9293bf0!2s231+Herbert+Macaulay+Way%2C+Alagomeji-Yaba%2C+Lagos!5e0!3m2!1sen!2sng!4v1524755002395" width="100%" height="420" frameborder="0" style="border:0" allowfullscreen></iframe>
+						<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1982.08050776197!2d3.3760136577319444!3d6.501290863787268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8c605a6e533d%3A0xab788523f467b965!2sLeadSpace+Yaba+(Lagosm)!5e0!3m2!1sen!2sus!4v1516268982592"  height="450" frameborder="0" style="border:0" allowfullscreen></iframe> -->
+					</div>
+				</div>
+				<div class="col-md-5 col-sm-5">
+					<form action="" method="POST" role="form" id="fileForm">
+						<div class="form-group">
+							<label for="" class="">Full Name</label>
+							<input type="text" class="form-control" name="firstname" id = "txt" onkeyup = "Validate(this)" required />
+							<div id="errFirst"></div>   
+						</div>
+
+						<div class="form-group">
+							<label for="" class="">Phone Number for Whatsapp</label>
+							<input type="text" class="form-control" placeholder="" name="phonenumber" id="phone" maxlength="11" onkeyup="validatephone(this);" required placeholder="0702334567">
+						</div>
+
+						<div class="form-group">
+							<label for="" class="">Email Address</label>
+							<input type="email" class="form-control" name="email" id = "email"  onchange="email_validate(this.value);" required />   
+	                        		<div class="status" id="status"></div>
+						</div>
+
+						<div class="form-group">
+							<label for="" class="">Message</label>
+							<textarea name="" id="input" class="form-control" rows="4"></textarea>
+						</div>
+
+						<button type="submit" class="btn btn-block __btnvip">Send Message</button>
+					</form>
+				</div>
+			</div>
+		</div>
 	</section>
 
+	<!-- modal for partner -->
+	<!-- <a class="btn btn-primary" data-toggle="modal" href='#modal-id'>Trigger modal</a> -->
+	<div class="modal fade" id="modal-id">
+		<div class="modal-dialog">
+			<div class="modal-content __modalcontent">
+				<form action="" method="POST" role="form" id="fileForm">
+					<div class="modal-body">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<div class="row">
+							<div class="col-md-4 col-sm-4 col-xs-3"></div>
+							<div class="col-md-4 col-sm-4 col-xs-6">
+								<div class="__picture">
+					                <img src="assets/img/default-avatar.png"
+					                  class="picture_src img-circle" id="picture_preview" alt="" >
+					                <img src="assets/img/camera.svg" class=" img-circle __pimg">
+					                <input class="img_container" type="file" id="upload" name="file">
+					                <p>Upload Picture</p>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-4 col-xs-3"></div>
+						</div>
+						
+						<div class="form-group">
+							<label for="" class="">Full Name</label>
+							<input type="text" class="form-control" name="firstname" id = "txt" onkeyup = "Validate(this)" required />
+							<div id="errFirst"></div>   
+						</div>
+
+						<div class="form-group">
+							<label for="" class="">Phone Number for Whatsapp</label>
+							<input type="text" class="form-control" placeholder="" name="phonenumber" id="phone" maxlength="11" onkeyup="validatephone(this);" required placeholder="">
+						</div>
+
+						<div class="form-group">
+							<label for="" class="">Email Address</label>
+							<input type="email" class="form-control" name="email" id = "email"  onchange="email_validate(this.value);" required />   
+	                        		<div class="status" id="status"></div>
+						</div>
+
+						<!-- <div class="form-group">
+							<label for="" class="">Bank Account Name</label>
+							<input type="text" class="form-control" name="firstname" id = "txt" onkeyup = "Validate(this)" required />
+							<div id="errFirst"></div>   
+						</div> -->
+
+						<div class="row">
+							<div class="col-md-6 col-sm-6">
+								<div class="form-group">
+									<label for="" class="">Bank Account Number</label>
+									<input type="text" class="form-control" placeholder="" name="phonenumber" id="phone" maxlength="22" onkeyup="validatephone(this);" required placeholder="">
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6">
+								<div class="form-group">
+									<label for="" class="">Bank Name</label>
+									<input type="text" class="form-control" name="firstname" id = "txt" onkeyup = "Validate(this)" required />
+									<div id="errFirst"></div>   
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<label for="" class="">National ID card, driver's licence or Passport</label>
+							<!-- <input type="text" class="form-control" name="firstname" id = "txt" onkeyup = "Validate(this)" required />
+									<div id="errFirst"></div> -->
+							<input type="file" class="form-control">
+						</div>
+
+						<div class="form-group">
+							<label for="" class="">I am available </label>
+							<select name="" id="input" class="form-control">
+								<option value="">Select</option>
+								<option value="">Part-time</option>
+								<option value="">Full-time</option>
+							</select>
+						</div>
+
+						<button type="submit" class="btn btn-block __btnvip">Register</button>
+						
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
 	<footer>
-		
-	</footer>
+		<div class="__foter">
+			<div class="row">
+				<div class="col-md-4 col-sm-4">
+					<p class="__fh">Product</p>
+					<p><a href="#delivery" class="__fotr">VIP</a></p>
+					<p><a data-toggle="modal" href='#modal-id' class="__fotr">Partner</a></p>
+					<p><a href="#contact" class="__fotr">Contact</a></p>
+				</div>
+				<div class="col-md-4 col-sm-4">
+					<p class="__fh">Support</p>
+					<p><a href="faq.html" class="__fotr">FAQ</a></p>
+					<p><a href="disclaimer.html" class="__fotr">Disclamier</a></p>
+				</div>
+				<div class="col-md-4 col-sm-4">
+					<p class="__fh">News Letter</p>
+					<form action="" method="POST" role="form">
+
+						<div class="input-group">
+							<input type="text" class="form-control" placeholder="Type your Email Here">
+							<div class="input-group-btn">
+  								<button class="btn __nesbtn" type="submit">
+    								<i class="far fa-paper-plane"></i>
+  								</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div><br>
+			<div class="__fod">
+				<hr>
+				<div class="row">
+					<div class="col-md-9 col-sm-9">
+						<p class="__fotcop">Copyright © 2018, Talaros. All rights reserved.</p>
+					</div>
+					<div class="col-md-3 col-sm-3">
+						<div class="__fosocai">
+							<span class="__fotsohf"><a href="" target="_blank"><i class="icon icon-social-facebook"></i></a></span>
+							<span class="__fotsohi"><a href="" target="_blank"><i class="icon icon-social-instagram"></i></a></span>
+							<span class="__fotsoht"><a href="" target="_blank"><i class="icon icon-social-twitter"></i></a></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer> 
 
 		
 
