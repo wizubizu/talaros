@@ -5,14 +5,14 @@
  =========================================================*/
 
  .__success{
-  background: #68B3C8;
+  background: #659be0 ;
     color: #ffffff;
     font-size: 13px;
     padding: 2px 5px;
  }
 
  .__inprogress{
-  background: #659be0;
+  background:#68B3C8 ;
     color: #ffffff;
     font-size: 13px;
     padding: 2px 5px;
@@ -64,7 +64,44 @@
     z-index: 1;
     padding: 20px;
  }
+
+ .__fsuccess{
+  background: #659be0;
+    padding: 5px;
+    border-radius: 4px;
+    text-align: center;
+    color: #ffffff;
+ }
  
+.__finprogress{
+  background:#68B3C8 ;
+    padding: 5px;
+    border-radius: 4px;
+    text-align: center;
+    color: #ffffff;
+ }
+
+ .__fpending{
+  background: #F1C40F;
+    padding: 5px;
+    border-radius: 4px;
+    text-align: center;
+    color: #ffffff;
+ }
+
+ .__fcancel{
+  background: #ed6b75;
+    padding: 5px;
+    border-radius: 4px;
+    text-align: center;
+    color: #ffffff;
+ }
+
+ .__select{
+    padding: 7px 0px !important;
+ }
+
+
 
  /*=========================================================
  * Paper Dashboard - v1.1.2
