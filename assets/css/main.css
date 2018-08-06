@@ -437,7 +437,7 @@ a:focus, a:hover {
   margin-top: -19px;
 }
 .__hdnav{
-  background: linear-gradient(90deg, #ea4c89, #359ad1);
+  background: #433e59;
   padding: 12px;
     border-radius: 0;
 }
@@ -535,8 +535,10 @@ input[type="file"] {
 }
 
 .__visad1{
+  margin-top: 20%;
   /*font-family: AvenirLTStd-Heavy;*/
-  font-size: 13px;
+  font-size: 15px;
+    line-height: 1.6;
   font-weight: 600;
   letter-spacing: 0.4px;
   color: #6b6b6b;
@@ -582,6 +584,13 @@ input[type="file"] {
      width: 166px;
     height: 166px;
     margin-left: 42px;
+}
+
+.__talaimg p{
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    color: #6b6b6b;
 }
 
 .__taladownimg img{
