@@ -580,7 +580,8 @@ input[type="file"] {
 
 .__talaimg img{
      width: 166px;
-    height: 176px;
+    height: 166px;
+    margin-left: 42px;
 }
 
 .__taladownimg img{
