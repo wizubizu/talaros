@@ -531,7 +531,7 @@ input[type="file"] {
   letter-spacing: 0.6px;
   color: #6b6b6b;
   margin-top: 19%;
-  height: 50px;
+  /*height: 50px;*/
 }
 
 .__visad1{
@@ -545,7 +545,7 @@ input[type="file"] {
 }
 
 .__ibg{
-  background:linear-gradient(100deg, rgba(34, 34, 34, 0.5) 50%, rgba(34, 34, 34, 0.5) 50%), url(../img/sutirta.png);
+  background:linear-gradient(100deg, rgba(34, 34, 34, 0.5) 50%, rgba(34, 34, 34, 0.5) 50%), url(../img/sutirta.jpg);
     /*background-attachment: fixed;*/
     background-position: center;
     background-repeat: no-repeat;
@@ -580,7 +580,7 @@ input[type="file"] {
 
 .__talaimg img{
      width: 166px;
-    height: 204px;
+    height: 176px;
 }
 
 .__taladownimg img{
@@ -718,7 +718,8 @@ font-size: 18px;
 }
 
 .__fosocai{
-  float: right;
+  margin-left: -16px;
+  /*float: right;*/
 }
 
 .__fotsohf{
