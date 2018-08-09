@@ -640,6 +640,10 @@
     margin-left: 25px;
   }
   
+  .__mapfram {
+    width: 100%;
+    height: 425px;
+  }
 
   
 
@@ -720,6 +724,11 @@
 
   .__talaimg img {
     margin-left: 0px;
+  }
+
+  .__mapfram {
+    width: 100%;
+    height: 412px;
   }
   /*end*/
 	
@@ -859,6 +868,10 @@
 
   .__visad1 {
     margin-top: 0%;
+  }
+
+  .__mapfram{
+    width: 100%;
   }
   /*end*/
 

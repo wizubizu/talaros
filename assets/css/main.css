@@ -877,6 +877,11 @@ ul {
   font-weight: 600;
   letter-spacing: 1.0px;
 }
+
+.__mapfram{
+  width: 600px;
+  height: 450px;
+}
 /*end*/
 
 
