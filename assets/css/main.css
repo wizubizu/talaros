@@ -882,6 +882,33 @@ ul {
   width: 600px;
   height: 450px;
 }
+
+.__landbg{
+  background:linear-gradient(100deg, rgba(34, 34, 34, 0.5) 50%, rgba(34, 34, 34, 0.5) 50%), url(../img/payingman.jpg);
+    /*background-attachment: fixed;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   height: 100vh;
+}
+
+/*.__landing{
+ padding: 70px 0; 
+}*/
+.__landingin{
+  padding: 163px 58px;
+}
+
+.__landingin h2{
+  color: #ffffff;
+}
+
+.__landingin p{
+  color: #ffffff;
+}
+.__landingin1{
+  padding-top: 15%;
+}
 /*end*/
 
 

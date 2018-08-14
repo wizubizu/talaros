@@ -396,7 +396,7 @@
   .navbar-toggle {
     /* border: 2px solid #FFFFFF; */
     color: #ffffff;
-    background: #f0842d;
+    background: #433e59;
   }
 
   .__dascard p:nth-child(2) {
@@ -730,16 +730,32 @@
     width: 100%;
     height: 412px;
   }
+
+  .__landingin {
+    padding: 128px 20px;
+  }
+
+  .__landbg {
+    height: 100%;
+  }
   /*end*/
 	
-  
+}
 
+/*=================================================================
+  @media screen 767px
+==================================================================*/
 
- 
+@media screen and (max-width: 767px){
 
+  .__landingin {
+    padding: 62px 118px;
+  }
 
-
-
+  .__landingin1 {
+    padding: 65px 122px;
+  }
+  /*talaros*/
 }
 
 
@@ -872,6 +888,26 @@
 
   .__mapfram{
     width: 100%;
+  }
+
+  .__landingin {
+    padding: 26px 15px;
+  }
+
+  .__landingin .img{
+    text-align: center;
+  }
+
+  .__landingin .img img{
+    width: 140px;
+  }
+
+  .__landbg {
+    height: 100%;
+  }
+
+  .__landingin1 {
+    padding: 30px 15px;
   }
   /*end*/
 
