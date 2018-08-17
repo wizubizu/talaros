@@ -926,13 +926,15 @@ ul {
 
 .__error h1{
   color: #e0e0e0;
-  text-align: center;
 }
 .__error p{
   color: #ffffff;
-  text-align: center;
   font-size: 20px;
   margin-top: 5%;
+}
+
+.__error{
+  text-align: center;
 }
 
 
