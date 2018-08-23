@@ -80,6 +80,23 @@
 									<input type="email" class="form-control" name="email" id = "email"  onchange="email_validate(this.value);" required />   
 					                		<div class="status" id="status"></div>
 								</div>
+
+								<div class="row">
+									<div class="col-lg-6 col-md-6 col-sm-6">
+										<div class="form-group">
+											<label for="" class="">Account Name :</label>
+											<input type="text" class="form-control" name="firstname" id = "txt" onkeyup = "Validate(this)" required />
+											<div id="errFirst"></div>   
+										</div>
+									</div>
+									<div class="col-lg-6 col-md-6 col-sm-6">
+										<div class="form-group">
+											<label for="" class="">Account Number:</label>
+											<input type="text" class="form-control" placeholder="" name="phonenumber" id="phone" maxlength="11" onkeyup="validatephone(this);" required placeholder="">
+										</div>
+									</div>
+								</div>
+
 								<div class="form-group">
 									<label for="" class="">Location :</label>
 									<textarea name="" id="input" class="form-control" rows="2" placeholder="Location" required></textarea>
