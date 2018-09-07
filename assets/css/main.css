@@ -576,7 +576,9 @@ input[type="file"] {
     font-weight: 600;
 }
 
-
+.form-control {
+    height: 33px;
+}
 
 .__talaimg img{
      width: 166px;
