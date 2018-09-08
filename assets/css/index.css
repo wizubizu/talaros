@@ -733,10 +733,22 @@
 
   .__landingin {
     padding: 128px 20px;
+    text-align: center;
   }
 
   .__landbg {
     height: 100%;
+  }
+
+  #picture_preview {
+    width: 70px;
+    height: 70px;
+    transition: all 1s ease-in;
+  }
+
+  .__picture .__pimg {
+    margin-top: 40px;
+    margin-left: -25px;
   }
   /*end*/
 	
@@ -750,11 +762,35 @@
 
   .__landingin {
     padding: 62px 118px;
+    text-align: center;
   }
 
   .__landingin1 {
     padding: 65px 122px;
   }
+
+  .__foter {
+    text-align: center;
+  }
+
+  .__fcardpostion {
+    top: -55px;
+    width: 360px;
+    left: 50%;
+  }
+
+  .__visad1 {
+    margin-top: 0%;
+  }
+
+  .__talaimg img {
+    margin-left: 266px;
+  }
+
+  .__picture {
+    width: 100%;
+  }
+
   /*talaros*/
 }
 
