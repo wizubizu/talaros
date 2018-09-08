@@ -575,6 +575,10 @@
     height: 356px;
   }
 
+  .__landbg {
+    height: 124vh;
+  }
+
 
 }
 
@@ -585,7 +589,9 @@
 
 @media screen and (max-width: 1199px){
    
-  
+  .__landbg {
+    height: 124vh;
+  }
 
 }
 
@@ -616,6 +622,10 @@
     height: 356px;
   }
 
+  .__landbg {
+    height: 125vh;
+  }
+
 
 }
 
@@ -643,6 +653,10 @@
   .__mapfram {
     width: 100%;
     height: 425px;
+  }
+
+  .__landbg {
+    height: 128vh;
   }
 
   
@@ -737,7 +751,7 @@
   }
 
   .__landbg {
-    height: 100%;
+    height: 118vh;
   }
 
   #picture_preview {
@@ -789,6 +803,10 @@
 
   .__picture {
     width: 100%;
+  }
+
+  .__landbg {
+    height: 100%;
   }
 
   /*talaros*/
